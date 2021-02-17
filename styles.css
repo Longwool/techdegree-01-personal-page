@@ -107,11 +107,16 @@ header .profile-image:hover {
     margin: 30px;
     padding: 20px 40px 40px;
     max-width: 500px;
-    text-align: left;
+    text-align: center;
     background: #fff;
     border-bottom: 4px solid #ccc;
     border-radius: 6px;
     transition: all .5s;
+    list-style: none;
+}
+
+.card li    {
+    list-style: none;
 }
 
 .card:hover {
@@ -130,6 +135,7 @@ ul.skills {
     color: white;
     padding: 5px 10px;
     margin: 2px;
+
 }
 
 .skills li:nth-child(odd) {
