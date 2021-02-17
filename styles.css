@@ -76,9 +76,9 @@ header {
     line-height: 1.5;
 }
 
-header .profile-image {
+header .home-image, .experience-image, .interests-image {
     margin-top: 50px;
-    width: 150px;
+    max-width: 200px;
     height: 150px;
     border-radius: 50%;
     border: 3px solid white;
