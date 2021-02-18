@@ -76,12 +76,12 @@ header {
     line-height: 1.5;
 }
 
-header .home-image, .experience-image, .interests-image {
+header .profile-image {
     margin-top: 50px;
     max-width: 200px;
     height: 150px;
-    border-radius: 50%;
-    border: 3px solid white;
+    border-radius: 40%;
+    border: 2px solid white;
     transition: all .5s;
 }
 
